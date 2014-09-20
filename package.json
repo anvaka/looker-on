@@ -1,0 +1,19 @@
+{
+  "name": "npmcssdemo",
+  "version": "0.0.0",
+  "description": "Just a small demo of how one can package css on npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "npm"
+  ],
+  "author": "Andrei Kashcha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anvaka/npmcssdemo"
+  }
+}

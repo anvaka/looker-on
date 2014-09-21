@@ -1,28 +1,20 @@
 {
-  "name": "npmcssdemo",
+  "name": "npmcssdemodemo",
   "version": "0.0.0",
   "description": "Just a small demo of how one can package css on npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/parcelify/bin/cmd.js main.js -c bundle.css"
   },
-  "style": "*.css",
-  "browserify": {
-    "transform": [
-      "brfs"
-    ]
-  },
-  "keywords": [
-    "css",
-    "npm"
-  ],
   "author": "Andrei Kashcha",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/anvaka/npmcssdemo"
   },
-  "dependencies": {
-    "brfs": "^1.2.0"
+  "devDependencies": {
+    "browserify": "^5.12.0",
+    "parcelify": "^0.12.3"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "sillyheader",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Just a small demo of how one can package css on npm",
   "main": "index.js",
   "scripts": {

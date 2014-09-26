@@ -1,9 +1,9 @@
 var fs = require('fs');
 var template = fs.readFileSync(__dirname + '/view.html', 'utf8');
 
-module.exports = HeaderComponent;
+module.exports = LookerOn;
 
-function HeaderComponent(parent) {
+function LookerOn(parent) {
 
   var dom = appendToDom(parent, template);
   var eyes = getEyes(dom);

@@ -1,5 +1,5 @@
 {
-  "name": "sillyheader",
+  "name": "looker-on",
   "version": "0.0.1",
   "description": "Just a small demo of how one can package css on npm",
   "main": "index.js",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/anvaka/sillyheader"
+    "url": "https://github.com/anvaka/looker-on"
   },
   "dependencies": {
     "brfs": "^1.2.0"

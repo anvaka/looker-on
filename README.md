@@ -1,6 +1,6 @@
 # looker-on
 
-Since many people think `npm` is all about javascript, here is a package which renders pair of SVG eyes, styled with CSS and hosted on `npm`.
+Since many people think `npm` is all about javascript, here is a package which renders pair of SVG eyes, styled with CSS and hosted on `npm`. Here is a `6:15` minutes video showing how to use it: https://www.youtube.com/watch?v=27GYm6nRv6E
 
 # how to use this?
 
